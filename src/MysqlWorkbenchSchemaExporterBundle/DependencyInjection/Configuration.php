@@ -40,7 +40,7 @@ class Configuration implements ConfigurationInterface
                             ->scalarNode('repositoryNamespace')->end()
                             ->scalarNode('backupExistingFile')->end()
                             ->scalarNode('skipPluralNameChecking')->end()
-                            ->scalarNode('skipColumnWithManyRelation')->end()
+                            ->scalarNode('skipColumnWithManyRelation')-Aa>end()
                             ->scalarNode('relatedVarNameFormat')->end()
                             ->scalarNode('relatedPrefix')->end()
                             ->scalarNode('enhanceManyToManyDetection')->end()
@@ -57,7 +57,10 @@ class Configuration implements ConfigurationInterface
                             ->scalarNode('filename')->end()
                             ->scalarNode('quoteIdentifier')->end()
                             ->scalarNode('indentation')->end()
+
                             ->scalarNode('extendsClass')->end()
+                            ->scalarNode('useGedmo')->end()
+
                         ->end()
                     ->end()
                     ->scalarNode('output_dir')
