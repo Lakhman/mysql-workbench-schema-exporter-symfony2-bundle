@@ -40,7 +40,7 @@ class Configuration implements ConfigurationInterface
                             ->scalarNode('repositoryNamespace')->end()
                             ->scalarNode('backupExistingFile')->end()
                             ->scalarNode('skipPluralNameChecking')->end()
-                            ->scalarNode('skipColumnWithManyRelation')-Aa>end()
+                            ->scalarNode('skipColumnWithManyRelation')->end()
                             ->scalarNode('relatedVarNameFormat')->end()
                             ->scalarNode('relatedPrefix')->end()
                             ->scalarNode('enhanceManyToManyDetection')->end()
