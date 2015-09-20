@@ -57,6 +57,7 @@ class Configuration implements ConfigurationInterface
                             ->scalarNode('filename')->end()
                             ->scalarNode('quoteIdentifier')->end()
                             ->scalarNode('indentation')->end()
+                            ->scalarNode('extendsClass')->end()
                         ->end()
                     ->end()
                     ->scalarNode('output_dir')
