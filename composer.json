@@ -1,9 +1,9 @@
 {
-    "name": "Lakhman/mysql-workbench-schema-exporter-symfony2-bundle",
+    "name": "lakhman/mysql-workbench-schema-exporter-symfony2-bundle",
     "type": "cli",
     "description": "MySQL Workbench Schema Exporter bundle for Symfony 2.2+",
     "keywords": ["mysql","workbench","database","doctrine","cli"],
-    "homepage": "https://github.com/Lakhman/mysql-workbench-schema-exporter-symfony2-bundle",
+    "homepage": "https://github.com/lakhman/mysql-workbench-schema-exporter-symfony2-bundle",
     "license": "MIT",
     "authors": [
         {
