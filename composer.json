@@ -1,20 +1,25 @@
 {
-    "name": "turnaev/mysql-workbench-schema-exporter-symfony2-bundle",
+    "name": "Lakhman/mysql-workbench-schema-exporter-symfony2-bundle",
     "type": "cli",
     "description": "MySQL Workbench Schema Exporter bundle for Symfony 2.2+",
     "keywords": ["mysql","workbench","database","doctrine","cli"],
-    "homepage": "https://github.com/turnaev/mysql-workbench-schema-exporter-symfony2-bundle",
+    "homepage": "https://github.com/Lakhman/mysql-workbench-schema-exporter-symfony2-bundle",
     "license": "MIT",
     "authors": [
         {
             "name": "Vladimir Turnaev",
             "email": "turanev@gmail.com",
             "role": "Developer"
+        },
+        {
+            "name": "Anil Lakhman",
+            "email": "anil.lakhman@gmail.com",
+            "role": "Developer/Forker"
         }
     ],
     "require": {
         "php": ">=5.3.3",
-        "symfony/symfony": "2.*",
+        "symfony/symfony": "2.*,3.*",
         "doctrine/orm": "~2.2,>=2.2.3",
         "doctrine/doctrine-bundle": "1.*",
         "turnaev/mysql-workbench-schema-exporter": ">=1.3.4"
