@@ -4,7 +4,7 @@ parameters:
 
 services:
     mysql_workbench_schema_exporter.exporter:
-        class: %mysql_workbench_schema_exporter.exporter.class%
-        arguments: [%mysql_workbench_schema_exporter.exporter.schemas%]
+        class: '%mysql_workbench_schema_exporter.exporter.class%'
+        arguments: ['%mysql_workbench_schema_exporter.exporter.schemas%']
         calls:
-          - [setContainer, [@service_container]]
+          - [setContainer, ['@service_container']]
