@@ -4,7 +4,7 @@ namespace MysqlWorkbenchSchemaExporterBundle\Core;
 
 use Doctrine\Bundle\DoctrineBundle\Command\GenerateEntitiesDoctrineCommand;
 use Doctrine\Bundle\DoctrineBundle\Command\Proxy\ConvertMappingDoctrineCommand;
-use Symfony\Component\DependencyInjection\ContainerAware;
+use Symfony\Component\DependencyInjection\ContainerAwareTrait;
 use MwbExporter\Bootstrap;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Input\InputInterface;
@@ -17,8 +17,10 @@ use Symfony\Bundle\FrameworkBundle\Console\Application;
  *
  * @author Marc Easen <marc@easen.co.uk>
  */
-class Schema extends ContainerAware
+class Schema
 {
+    use ContainerAwareTrait;
+
     /**
      * Bundle name.
      *

@@ -3,7 +3,7 @@
 namespace MysqlWorkbenchSchemaExporterBundle\Service;
 
 use MysqlWorkbenchSchemaExporterBundle\Core\Schema;
-use Symfony\Component\DependencyInjection\ContainerAware;
+use Symfony\Component\DependencyInjection\ContainerAwareTrait;
 use Symfony\Component\Console\Output\OutputInterface;
 
 /**
@@ -11,8 +11,10 @@ use Symfony\Component\Console\Output\OutputInterface;
  *
  * @author marc
  */
-class Exporter extends ContainerAware
+class Exporter
 {
+    use ContainerAwareTrait;
+
     /**
      * Schemas.
      *
